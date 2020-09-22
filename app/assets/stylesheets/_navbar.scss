@@ -1,0 +1,39 @@
+.navbar-lewagon {
+  background: #1B272C;
+  height: 80px;
+  position: relative;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand {
+  width: 55px;
+  border-radius: 50%;
+  left: 10px;
+}
+
+.nav-link {
+  color: white;
+  transition: 0.3s ease;
+
+  &:hover {
+    color:#606597;
+    font-weight: bold;
+  }
+}
+
+.btn-btn-link {
+  color: white;
+  &:hover {
+    color:#606597;
+    font-weight: bold;
+  }
+}
+
+#nav-item {
+  list-style: none;
+  position: relative;
+  left: 68vw;
+  top
