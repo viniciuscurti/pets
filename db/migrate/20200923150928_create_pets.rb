@@ -4,7 +4,7 @@ class CreatePets < ActiveRecord::Migration[6.0]
       t.string :name
       t.string :date_of_birth
       t.string :type
-      t.boolean :adopted
+      t.boolean :adopted, :default => false
 
       t.timestamps
     end
