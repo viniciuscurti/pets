@@ -1,0 +1,13 @@
+  
+<h1 class="mt-4">New Card</h1>
+
+<%= simple_form_for(@pet) do |f| %>
+<%= f.input :category, collection: ['Magic', 'Pokemon', 'Yu-Gi-Oh'], input_html: { class: "beautiful-dropdown" } %>
+<%= f.input :name %>
+<%= f.input :date_of_birth %>
+<%= f.input :type %>
+<%= f.input :photo, as: :file %>
+<%= f.submit 'Submit', class: 'btn-primary' %>
+<% end %>
+<br>
+<%= link_to "Back to cards", pets_path, class: "btn btn-ghost" %>
